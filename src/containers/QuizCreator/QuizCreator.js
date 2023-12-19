@@ -10,7 +10,7 @@ import axios from '../../axios/axios-quiz'
 function createOptionControl(number) {
   return createControl({
     label: `Вариант ${number}`,
-    errorMessage: 'Значение не может быть пустым',
+    errorMessage: 'Значення не може бути порожнім',
     id: number
   }, {required: true})
 }
@@ -18,8 +18,8 @@ function createOptionControl(number) {
 function createFormControls() {
   return {
     question: createControl({
-      label: 'Введите вопрос',
-      errorMessage: 'Вопрос не может быть пустым'
+      label: 'Введіть питання',
+      errorMessage: 'Питання не може бути порожнім'
     }, {required: true}),
     option1: createOptionControl(1),
     option2: createOptionControl(2),
