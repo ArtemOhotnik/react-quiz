@@ -50,7 +50,7 @@ export default class QuizList extends Component {
     return (
       <div className={classes.QuizList}>
         <div>
-          <h1>Список тестов</h1>
+          <h1>Список тестів</h1>
 
           {
             this.state.loading
