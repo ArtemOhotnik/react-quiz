@@ -14,7 +14,7 @@ export default class Auth extends Component {
         value: '',
         type: 'email',
         label: 'Email',
-        errorMessage: 'Введите корректный email',
+        errorMessage: 'Введіть коректину пошту',
         valid: false,
         touched: false,
         validation: {
@@ -26,7 +26,7 @@ export default class Auth extends Component {
         value: '',
         type: 'password',
         label: 'Пароль',
-        errorMessage: 'Введите корректный пароль',
+        errorMessage: 'Введіть коректний пароль',
         valid: false,
         touched: false,
         validation: {
@@ -137,7 +137,7 @@ export default class Auth extends Component {
     return (
       <div className={classes.Auth}>
         <div>
-          <h1>Авторизация</h1>
+          <h1>Авторизація</h1>
 
           <form onSubmit={this.submitHandler} className={classes.AuthForm}>
 
@@ -148,7 +148,7 @@ export default class Auth extends Component {
               onClick={this.loginHandler}
               disabled={!this.state.isFormValid}
             >
-              Войти
+              Увійти
             </Button>
 
             <Button
@@ -156,7 +156,7 @@ export default class Auth extends Component {
               onClick={this.registerHandler}
               disabled={!this.state.isFormValid}
             >
-              Зарегистрироваться
+              Зарееструватися
             </Button>
           </form>
         </div>
