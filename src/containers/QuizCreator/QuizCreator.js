@@ -148,7 +148,7 @@ export default class QuizCreator extends Component {
     return (
       <div className={classes.QuizCreator}>
         <div>
-          <h1Створення тесту</h1>
+          <h1>Створення тесту</h1>
 
           <form onSubmit={this.submitHandler}>
 
